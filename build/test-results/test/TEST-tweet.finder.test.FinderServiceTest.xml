@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="tweet.finder.test.FinderServiceTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-01-11T14:28:25" hostname="BRMFC4F" time="0.163">
+  <properties/>
+  <testcase name="exceptionTest" classname="tweet.finder.test.FinderServiceTest" time="0.158"/>
+  <testcase name="additionalHashTagTest" classname="tweet.finder.test.FinderServiceTest" time="0.004"/>
+  <system-out><![CDATA[11:28:25,086 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+11:28:25,087 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+11:28:25,087 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/re034302/workspace-projeto/tweet-finder/build/resources/main/logback.xml]
+11:28:25,143 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+11:28:25,148 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+11:28:25,155 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+11:28:25,216 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+11:28:25,216 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+11:28:25,216 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+11:28:25,217 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework] to DEBUG
+11:28:25,217 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework] to false
+11:28:25,217 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.springframework]
+11:28:25,217 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [tweet.finder] to DEBUG
+11:28:25,217 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [tweet.finder] to false
+11:28:25,217 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[tweet.finder]
+11:28:25,217 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to DEBUG
+11:28:25,217 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+11:28:25,217 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+11:28:25,218 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@33b81308 - Registering current configuration as safe fallback point
+
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
